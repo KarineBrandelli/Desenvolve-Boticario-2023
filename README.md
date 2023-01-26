@@ -1,12 +1,9 @@
 <h1 align="center">
 Programa Desenvolve | Grupo Boticário
+<br>
+<br>
+Trilha FullStack 💻
 </h1>
-
-<h2 align="center">
-  Trilha FullStack 💻
-</h2>
-
-------
 
 ## Descrição
 

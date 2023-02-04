@@ -1,15 +1,12 @@
 <h1 align="center">
 Programa Desenvolve | Grupo Boticário
 <br>
-<br>
 Trilha FullStack 💻
 </h1>
 
-## Descrição
+## O que é o Programa Desenvolve?
 
-<p>Programa gratuito de formação e inclusão de talentos em tecnologia do <a href="https://desenvolve.grupoboticario.com.br/">Grupo Boticário</a>, organizado pelo time de tecnologia do Grupo Boticário, a <a href="https://medium.com/gbtech">gb.tech</a>. Atua em busca de tecnologias múltiplas, de todas as cores, idades e gêneros, capazes de criar, desenvolver e melhorar a partir do binarismo dos sistemas e construindo o amanhã que queremos e precisamos.</p>
-
-<br>
+<p>Programa gratuito de formação e inclusão de talentos em tecnologia do <a href="https://desenvolve.grupoboticario.com.br/">Grupo Boticário</a>, organizado pelo time de tecnologia do Grupo Boticário, a <a href="https://medium.com/gbtech">gb.tech</a>.</p>
 
 ## Pra que serve esse repositório?
 
@@ -17,7 +14,6 @@ Trilha FullStack 💻
   Nesse repositório estarão contidos todos os projetos e aprendizados adquidiros durante os 6 meses de imersão do programa.
 </p>
 
-<br>
 
 ## Qual plataforma de aprendizado será utilizada?
 

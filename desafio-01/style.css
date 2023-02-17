@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white-color: #FFFFFF;  
+  --black-color: #000000;
+  --light-gray: #F5F5F5;
+  --cerise-color: #DB1E8C;
+  --card-title-color: #364372;
+  --carnation-color: #FF97D3;  
+  --cornflower-color: #264FEC;
+  --pickled-bluewood-color: #33475B;  
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: var(--pickled-bluewood-color);
+}
+
+.flex {
+  display: flex;
+}
+
+/* HEADER */
+
+header,
+footer {
+  background-color: var(--white-color);
+}
+
+header {
+  height: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+.container-elementos-header,
+.container-elementos-footer {
+  align-items: center;
+  justify-content: space-between;
+  
+  width: 80rem;
+  margin: 0 auto;
+}
+
+.titulo-principal {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--cornflower-color);
+}
+
+.label-pesquisa {
+  align-items: center;
+  gap: .25rem;
+
+  height: 2.5rem;
+  padding: .5rem;
+  border-radius: .25rem;
+  background-color: var(--cerise-color);
+}
+
+.input-pesquisa {
+  border: none;
+  padding: .25rem;
+  background-color: transparent;
+}
+
+::placeholder {
+  color: var(--carnation-color);
+}

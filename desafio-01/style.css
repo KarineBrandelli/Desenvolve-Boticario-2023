@@ -72,3 +72,55 @@ header {
 ::placeholder {
   color: var(--carnation-color);
 }
+
+/* MAIN */
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2.5rem;
+
+  width: 80rem;
+  margin: 0 auto;
+}
+
+.container-card {
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 25rem;
+  height: 28.5rem;
+  padding: 2rem;
+  border-radius: .25rem;
+  background-color: var(--light-gray);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: var(--card-title-color);
+}
+
+.card-content {
+  line-height: 1.5rem;
+}
+
+.card-break-line {
+  padding-top: 1rem;
+}
+
+.card-button {
+  width: 9rem;
+  height: 3rem;
+  border-radius: .25rem;
+  text-decoration: none;
+  color: var(--cornflower-color);
+  border: 2px solid var(--cornflower-color);
+}
+
+.link-button {
+  font-weight: 400;
+  font-size: .875rem;
+
+  text-decoration: none;
+}

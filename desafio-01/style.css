@@ -124,3 +124,42 @@ main {
 
   text-decoration: none;
 }
+
+/* FOOTER */
+
+footer {
+  height: 6.875rem;
+  margin-top: 2.5rem;
+}
+
+.container-logos {
+  align-items: center;
+  gap: 1.65rem;
+}
+
+.link-ancoras {
+  font-weight: 400;
+  font-size: .875rem;
+
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.container-textos-icones {
+  gap: 3.7rem;
+}
+
+.container-textos {
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.container-icones {
+  gap: 1.9rem;
+}
+
+.container-center {
+  flex-direction: column;
+  align-items: center;
+  gap: 1.125rem;
+}

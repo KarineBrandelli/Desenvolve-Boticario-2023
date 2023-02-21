@@ -34,14 +34,15 @@ footer {
 }
 
 header {
-  height: 5rem;
-  margin-bottom: 2.5rem;
+  min-height: 5rem;
+  margin-bottom: 1.5rem;
 }
 
 .container-elementos-header,
 .container-elementos-footer {
   align-items: center;
   justify-content: space-between;
+  padding: 0 1rem;
   
   width: 80rem;
   margin: 0 auto;
@@ -78,9 +79,10 @@ header {
 main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 2.5rem;
+  place-items: center;
+  padding: 0 1rem;
 
-  width: 80rem;
+  max-width: 80rem;
   margin: 0 auto;
 }
 
@@ -88,9 +90,10 @@ main {
   flex-direction: column;
   justify-content: space-between;
 
-  width: 25rem;
-  height: 28.5rem;
   padding: 2rem;
+  margin: 1rem;
+  max-width: 25rem;
+  height: 31rem;
   border-radius: .25rem;
   background-color: var(--light-gray);
 }
@@ -106,7 +109,7 @@ main {
 }
 
 .card-break-line {
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 
 .card-button {
@@ -128,7 +131,7 @@ main {
 /* FOOTER */
 
 footer {
-  height: 6.875rem;
+  min-height: 6.875rem;
   margin-top: 2.5rem;
 }
 
@@ -162,4 +165,69 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 1.125rem;
+}
+
+@media screen and (max-width: 1296px) {
+  .container-card {
+    height: 35rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+
+  .container-card {
+    height: 35rem;
+  }
+}
+
+@media screen and (max-width: 906px) {
+  .container-elementos-footer {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+
+  .container-elementos-header {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .container-textos-icones {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .container-textos {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 406px) {
+  .bigger {
+    height: 40rem;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .titulo-principal {
+    font-size: 1.25rem;
+  }
+
+  .bigger {
+    height: 47rem;
+  }
+
+  .medium {
+    height: 40rem;
+  }
 }

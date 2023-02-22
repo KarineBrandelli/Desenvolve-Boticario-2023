@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-blue: #132235;
+  --light-blue: #6ddad3;
+  --light-gray: #a2a8af;
+  --white: #ffffff;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}

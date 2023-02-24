@@ -226,3 +226,59 @@ h3 {
   font-size: 1rem;
   font-weight: 400;
 }
+
+.section-container {
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+
+  margin: 7.75rem auto;
+  color: var(--dark-blue);
+}
+
+.contato-container {
+  flex-direction: column;
+  flex: 1;
+}
+
+.image-section-container {
+  background: url("../assets/logo-section.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: 1.35;
+
+  max-width: 100%;
+  min-height: 25rem;
+}
+
+label {
+  padding: 0.5rem 0;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+input,
+textarea {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+
+  padding: 0.75rem;
+  outline: none;
+  border-radius: 0.75rem;
+  border: 2px solid var(--dark-blue);
+}
+
+.enviar-button {
+  border: none;
+  width: 8.5rem;
+  height: 3.5rem;
+  margin-top: 1rem;
+  border-radius: 0.75rem;
+  background-color: var(--dark-blue);
+}
+
+.enviar-button a {
+  color: var(--white);
+}

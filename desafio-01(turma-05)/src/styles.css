@@ -282,3 +282,28 @@ textarea {
 .enviar-button a {
   color: var(--white);
 }
+
+footer {
+  min-height: 7.8rem;
+  background-color: var(--dark-blue);
+}
+
+.footer-container {
+  width: 80rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons-container {
+  gap: 4.25rem;
+}
+
+.icons-container img {
+  cursor: pointer;
+}
+
+p {
+  color: var(--white);
+  font-size: 1.125rem;
+  font-weight: 700;
+}

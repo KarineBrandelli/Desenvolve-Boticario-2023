@@ -12,7 +12,7 @@ A fim de desenvolver os conhecimentos técnicos obtidos no programa de formaçã
 
 ## Como acessar a página?
 
-Você pode acessar a aplicação utilizando um computador, tablet ou celular clicando [nesse]() link.
+Você pode acessar a aplicação utilizando um computador, tablet ou celular clicando [nesse](https://boticario-turma05.vercel.app/) link.
 
 Se você deseja clonar esse repositório em sua máquina, não é necessária nenhuma pré-instalação para a utilização do projeto.
 

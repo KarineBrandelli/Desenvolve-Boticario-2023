@@ -17,7 +17,7 @@ Você pode acessar a aplicação utilizando um computador, tablet ou celular cli
 Se você deseja clonar esse repositório em sua máquina, não é necessária nenhuma pré-instalação para a utilização do projeto.
 
 <p align="center">
-  <img alt="App Layout" src="" width="80%">
+  <img alt="App Layout" src="https://user-images.githubusercontent.com/108953489/221436588-716fe989-aa74-4359-9db8-202a883fb588.gif" width="80%">
 </p>
 
 ## Tecnologias utilizadas

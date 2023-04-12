@@ -11,7 +11,7 @@ Trilha FullStack 💻
 ## Pra que serve esse repositório?
 
 <p align="justify">
-  Nesse repositório estarão contidos todos os projetos e aprendizados adquidiros durante os 6 meses de imersão do programa.
+  Nesse repositório estarão contidos todos os projetos e aprendizados adquiridos durante os 6 meses de imersão do programa.
 </p>
 
 

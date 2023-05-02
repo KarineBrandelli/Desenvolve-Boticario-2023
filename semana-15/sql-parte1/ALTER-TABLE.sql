@@ -1,0 +1,10 @@
+ALTER TABLE tbProduto ADD PRIMARY KEY (PRODUTO);
+
+SELECT * FROM tbProduto;
+
+INSERT INTO tbProduto (
+PRODUTO,  NOME, EMBALAGEM, TAMANHO, PRECO_LISTA) VALUES
+('1078680', 'Frescor do Verão - 470 ml - Manga', 'Lata', '470 ml',5.18);
+
+UPDATE tbProduto SET EMBALAGEM = 'Garrafa'
+WHERE PRODUTO = '1078680';

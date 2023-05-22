@@ -1,7 +1,5 @@
 <h1 align="center">
-Programa Desenvolve | Grupo Boticário
-<br>
-Trilha FullStack 💻
+Programa Desenvolve | Trilha FullStack 💻
 </h1>
 
 ## O que é o Programa Desenvolve?
@@ -11,7 +9,7 @@ Trilha FullStack 💻
 ## Pra que serve esse repositório?
 
 <p align="justify">
-  Nesse repositório estarão contidos todos os projetos e aprendizados adquiridos durante os 6 meses de imersão do programa.
+  Nesse repositório estarão contidos todos os projetos e aprendizados adquiridos durante os 06 meses de imersão do programa.
 </p>
 
 

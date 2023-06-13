@@ -1,7 +1,9 @@
 import "./App.css";
+import "normalize.css";
+import Cardapio from "./pages/Cardapio";
 
 function App() {
-  return <h1>Hi</h1>;
+  return <Cardapio />;
 }
 
 export default App;

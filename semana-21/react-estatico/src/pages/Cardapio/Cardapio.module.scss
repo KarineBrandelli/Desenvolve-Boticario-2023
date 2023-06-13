@@ -1,5 +1,5 @@
-@import "styles/variaveis";
-@import "styles/breakpoints";
+@import "../../styles/variaveis";
+@import "../../styles/breakpoints";
 
 .menu {
   padding: 20px $padding-horizontal;
@@ -16,7 +16,7 @@
 
 .header {
   align-items: center;
-  background-image: url("/assets/cardapio/header.png");
+  background-image: url("../../assets/cardapio/header.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;

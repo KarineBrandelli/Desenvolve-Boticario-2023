@@ -1,9 +1,9 @@
 import './App.css';
 import 'normalize.css';
-import Cardapio from './pages/Cardapio';
+import Router from './routes';
 
 function App() {
-	return <Cardapio />;
+	return <Router />;
 }
 
 export default App;
